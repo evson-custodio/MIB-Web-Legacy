@@ -1,0 +1,31 @@
+{
+  "name": "mib-web",
+  "version": "1.0.0",
+  "description": "MIB-Web is a Web system that uses the Basic Linux Embedded Server (BLES) architecture to enable small and medium-sized low-budget museums to defy the technology's interactivity.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evsoncustodio/MIB-Web.git"
+  },
+  "keywords": [
+    "Museum",
+    "Interactivity",
+    "BLES"
+  ],
+  "author": "evsoncustodio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evsoncustodio/MIB-Web/issues"
+  },
+  "homepage": "https://github.com/evsoncustodio/MIB-Web#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "serve-favicon": "^2.5.0"
+  }
+}
